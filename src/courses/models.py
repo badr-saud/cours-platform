@@ -8,7 +8,7 @@ helpers.cloudinary_init()
 # Create your models here.
 class AccessRequirements(models.TextChoices):
     ANYONE = "any", "Anyone"
-    EMAIL_REQUIRED = "email", "Wmail required"
+    EMAIL_REQUIRED = "email", "Email required"
 
 
 class publishStatus(models.TextChoices):
